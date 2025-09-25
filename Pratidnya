@@ -1,0 +1,12 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+void main() {
+   int marks;
+   printf("enter your marks:");
+   scanf("%d",&marks);
+   printf("check if the student passed or failed is %d\n,marks");
+   if (marks>=40){
+     printf("passed");
+   }
+    else{ printf("fail") ;}
+  
